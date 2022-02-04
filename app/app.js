@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const morgan = require('morgan');
 const fileUpload = require('express-fileupload');
-const router = require('./router/router');
+const router = require('./routers/router');
 const app = express();
 
 // Port configuration
