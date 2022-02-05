@@ -36,8 +36,10 @@ To use the project on your machine, you must have the following installed:
 
 To start the project <node_apipersons>, you must follow the following steps:
 1. Import the database script to your mysql manager.
-2. Open a terminal at the root of the project.
-3. In the main root of the project execute the following in your terminal:
+2. Change the database credentials for your connection, go to:
+    > config/db.json
+3. Open a terminal at the root of the project.
+4. In the main root of the project execute the following in your terminal:
     ```
     npm install
     ```
